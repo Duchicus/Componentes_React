@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
-const Teaches = ({defaultname}) => {
+const Teachers = ({defaultname}) => {
   const [name,setName] = useState(defaultname)
 
   const handleChange = (event) => {
@@ -20,4 +20,4 @@ const Teaches = ({defaultname}) => {
   )
 }
 
-export default Teaches
+export default Teachers
